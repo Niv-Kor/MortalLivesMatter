@@ -131,7 +131,7 @@ public class Ammo implements Graphable, Purchasable
 			amountPoint.setX(amountPoint.getX() - 5);
 			digitsFlag = true;
 		}
-		
+	
 		if (NumeralHandler.countDigits(amount) == 2 && digitsFlag) {
 			amountPoint.setX(amountPoint.getX() + 5);
 			digitsFlag = false;
